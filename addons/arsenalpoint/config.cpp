@@ -99,15 +99,15 @@ class CfgVehicles
 					class SpawnPlasticBig : ACE_SpawnMedBox {
 						displayName = "Spawn Plastik Groß";
 						statement = "['Land_PlasticCase_01_large_F', false] call wolf_ars_fnc_spawnEquipBox;";
-					}
+					};
 					class SpawnPlasticMedium : ACE_SpawnMedBox {
 						displayName = "Spawn Plastik Mittel";
 						statement = "['Land_PlasticCase_01_medium_F', false] call wolf_ars_fnc_spawnEquipBox;";
-					}
+					};
 					class SpawnPlasticSmall : ACE_SpawnMedBox {
 						displayName = "Spawn Plastik Klein";
 						statement = "['Land_PlasticCase_01_small_F', false] call wolf_ars_fnc_spawnEquipBox;";
-					}
+					};
 
 
 
