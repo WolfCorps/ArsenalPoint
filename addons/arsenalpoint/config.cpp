@@ -1,13 +1,20 @@
-class CfgPatches
-{
-	class wolf_arsenalpoint
-	{
+#include "script_component.hpp"
+
+class CfgPatches {
+	class ADDON {
 		units[] = {"wolf_arsenal_point","wolf_arsenal_point2","wolf_foxenal_point","wolf_foxenal_point_sit","wolf_foxenal_point_small","wolf_foxenal_point_sit_small","wolf_suitcase_arsenal","wolf_trophy_arsenal","wolf_ammobox_arsenal","wolf_fdr_arsenal","wolf_bacon_arsenal","wolf_microwave_arsenal","wolf_pctower_arsenal","wolf_helipadlight_arsenal"};
 		weapons[] = {};
 		requiredAddons[] = {"rhs_main","ace_common","A3_Data_F_Tank_Loadorder","cba_main"};
-		requiredVersion = 0.1;
+		requiredVersion = REQUIRED_VERSION;
+        author = "";
+        authors[] = {"Wolf Corps"};
+        authorUrl = "https://wolfcorps.de";
+        VERSION_CONFIG;
 	};
 };
+
+#include "CfgEventHandlers.hpp"
+
 class CfgEditorCategories
 {
 	class wolfCorps
@@ -28,17 +35,6 @@ class CfgEditorSubcategories
 	{
 		displayName = "Arsenal";
 	};
-};
-
-
-class CfgFunctions {
-    class wolf_ars {
-        tag = "wolf_ars";
-        class Ace {
-            file = "z\wolf\addons\arsenalpoint";
-            class spawnEquipBox;
-        };
-    };
 };
 
 class CfgVehicles
