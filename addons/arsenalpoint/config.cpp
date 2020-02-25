@@ -50,7 +50,7 @@ class CfgVehicles
 		editorSubcategory = "Arsenal";
 		vehicleClass = "Arsenal";
 		armor = 5000;
-		//#TODO add maximumLoad so this can act as a inventory container for junk
+        maximumLoad = 9999;
 
 		class ACE_Actions {
 			class ACE_MainActions {
@@ -117,7 +117,7 @@ class CfgVehicles
 		editorCategory = "wolfCorps";
 		editorSubcategory = "Arsenal";
 		vehicleClass = "Arsenal";
-		class ACE_Actions
+        maximumLoad = 9999;
         class ACE_Actions {
 			class ACE_MainActions {
 				displayName = "$STR_ACE_Interaction_MainAction";
@@ -150,7 +150,7 @@ class CfgVehicles
 		editorCategory = "wolfCorps";
 		editorSubcategory = "Arsenal";
 		vehicleClass = "Arsenal";
-		class ACE_Actions
+        maximumLoad = 9999;
 		class ACE_Actions {
 			class ACE_MainActions {
 				displayName = "$STR_ACE_Interaction_MainAction";
@@ -183,7 +183,7 @@ class CfgVehicles
 		editorCategory = "wolfCorps";
 		editorSubcategory = "Arsenal";
 		vehicleClass = "Arsenal";
-		class ACE_Actions
+        maximumLoad = 9999;
 		class ACE_Actions {
 			class ACE_MainActions {
 				displayName = "$STR_ACE_Interaction_MainAction";
@@ -216,7 +216,7 @@ class CfgVehicles
 		editorCategory = "wolfCorps";
 		editorSubcategory = "Arsenal";
 		vehicleClass = "Arsenal";
-		class ACE_Actions
+        maximumLoad = 9999;
 		class ACE_Actions {
 			class ACE_MainActions {
 				displayName = "$STR_ACE_Interaction_MainAction";
@@ -249,7 +249,7 @@ class CfgVehicles
 		editorCategory = "wolfCorps";
 		editorSubcategory = "Arsenal";
 		vehicleClass = "Arsenal";
-		class ACE_Actions
+        maximumLoad = 9999;
 		class ACE_Actions {
 			class ACE_MainActions {
 				displayName = "$STR_ACE_Interaction_MainAction";
@@ -282,7 +282,7 @@ class CfgVehicles
 		editorCategory = "wolfCorps";
 		editorSubcategory = "Arsenal";
 		vehicleClass = "Arsenal";
-		class ACE_Actions
+        maximumLoad = 9999;
 		class ACE_Actions {
 			class ACE_MainActions {
 				displayName = "$STR_ACE_Interaction_MainAction";
@@ -315,7 +315,7 @@ class CfgVehicles
 		editorCategory = "wolfCorps";
 		editorSubcategory = "Arsenal";
 		vehicleClass = "Arsenal";
-		class ACE_Actions
+        maximumLoad = 9999;
 		class ACE_Actions {
 			class ACE_MainActions {
 				displayName = "$STR_ACE_Interaction_MainAction";
@@ -348,7 +348,7 @@ class CfgVehicles
 		editorCategory = "wolfCorps";
 		editorSubcategory = "Arsenal";
 		vehicleClass = "Arsenal";
-		class ACE_Actions
+        maximumLoad = 9999;
 		class ACE_Actions {
 			class ACE_MainActions {
 				displayName = "$STR_ACE_Interaction_MainAction";
