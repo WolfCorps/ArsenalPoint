@@ -9,5 +9,7 @@ if (_empty) then {
     clearItemCargoGlobal _box;
 };
 
- 
+_box setVariable ["ace_dragging_ignoreWeightCarry", true];
+_box setVariable ["ace_dragging_ignoreWeightDrag", true];
+
 [player, _box] call ace_dragging_fnc_carryObject;

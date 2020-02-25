@@ -15,30 +15,23 @@ class CfgPatches {
 
 #include "CfgEventHandlers.hpp"
 
-class CfgEditorCategories
-{
-	class wolfCorps
-	{
+class CfgEditorCategories {
+	class wolfCorps 	{
 		displayName = "Wolf Corps";
 	};
 };
-class CfgVehicleClasses
-{
-	class Arsenal
-	{
+class CfgVehicleClasses {
+	class Arsenal 	{
 		displayName = "Arsenal";
 	};
 };
-class CfgEditorSubcategories
-{
-	class Arsenal
-	{
+class CfgEditorSubcategories {
+	class Arsenal 	{
 		displayName = "Arsenal";
 	};
 };
 
-class CfgVehicles
-{
+class CfgVehicles {
 	class Thing;
 	class wolf_arsenal_point: Thing {
 		_generalMacro = "wolf_arsenal_point";
