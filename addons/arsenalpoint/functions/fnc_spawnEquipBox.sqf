@@ -7,6 +7,7 @@ _box setPosASL (getPosASL player vectorAdd (vectorDir player));
 if (_empty) then {
     clearWeaponCargoGlobal _box;
     clearItemCargoGlobal _box;
+    clearMagazineCargoGlobal _box;
 };
 
 _box setVariable ["ace_dragging_ignoreWeightCarry", true];
