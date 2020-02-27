@@ -48,5 +48,10 @@ params ["_target"];
         [QGVAR(openLogistikMenu), "Spawn Plastik Klein", "", {['Land_PlasticCase_01_small_F', true] call wolf_arsenalpoint_fnc_spawnEquipBox;}, {true}, {}] call ace_interact_menu_fnc_createAction,
         [],
         _target
+    ],
+    [
+        [QGVAR(openLogistikMenu), "Spawn Transportnetz", "", {['CargoNet_01_box_F', true] call wolf_arsenalpoint_fnc_spawnEquipBox;}, {true}, {}] call ace_interact_menu_fnc_createAction,
+        [],
+        _target
     ]
 ]

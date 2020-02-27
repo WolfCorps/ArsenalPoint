@@ -10,7 +10,7 @@ if (_empty) then {
     clearMagazineCargoGlobal _box;
 };
 
-_box setVariable ["ace_dragging_ignoreWeightCarry", true];
-_box setVariable ["ace_dragging_ignoreWeightDrag", true];
+_box setVariable ["ace_dragging_ignoreWeightCarry", true, true];
+_box setVariable ["ace_dragging_ignoreWeightDrag", true, true];
 
 [player, _box] call ace_dragging_fnc_carryObject;
