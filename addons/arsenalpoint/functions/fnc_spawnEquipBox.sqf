@@ -1,4 +1,4 @@
-params ["_boxname", "_empty"];
+params ["_boxname", "_empty", "_hiddenSelectionTextures"];
 
 private _box = createVehicle [_boxname, getPos player vectorAdd [0,0,-50], [], 0, "CAN_COLLIDE"];
 _box setPosASL (getPosASL player vectorAdd (vectorDir player));
@@ -12,5 +12,10 @@ if (_empty) then {
 
 _box setVariable ["ace_dragging_ignoreWeightCarry", true, true];
 _box setVariable ["ace_dragging_ignoreWeightDrag", true, true];
+
+if (!isNil "_hiddenSelectionTextures") then {
+    {_box setObjectTextureGlobal _x} forEach _hiddenSelectionTextures;
+};
+
 
 [player, _box] call ace_dragging_fnc_carryObject;
