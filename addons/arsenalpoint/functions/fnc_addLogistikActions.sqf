@@ -164,8 +164,12 @@ params ["_target"];
         [QGVAR(__COUNTER__), "Spawn ACE...", "", {}, {true}, {
             params ["_target"];
            [
-               SPAWNBOX("Spare Wheel", 'ACE_Wheel'),
-            SPAWNBOX("Spare Track", 'ACE_Track')
+                SPAWNBOX("Spare Wheel", 'ACE_Wheel'),
+                SPAWNBOX("Spare Track", 'ACE_Track'),
+                SPAWNBOX("Jerrycan 20L", 'Land_CanisterFuel_F'),
+                SPAWNBOX("Jerrycan 20L RHS", 'rhsusf_props_ScepterMFC_OD'),
+                SPAWNBOX("Flextank 300L Forest", 'FlexibleTank_01_forest_F'),
+                SPAWNBOX("Flextank 300L Sand", 'FlexibleTank_01_sand_F')
            ]
         }] call ace_interact_menu_fnc_createAction, [], _target
     ]
