@@ -17,5 +17,15 @@ if (!isNil "_hiddenSelectionTextures") then {
     {_box setObjectTextureGlobal _x} forEach _hiddenSelectionTextures;
 };
 
+if !(_box getVariable ["ace_dragging_canCarry", false]) then {
+    // Need to make carryable
+    [_box, true, [0,1,1], 0, true] call ace_dragging_fnc_setCarryable;
+};
+
+if !(_box getVariable ["ace_dragging_canDrag", false]) then {
+    // Need to make carryable
+    [_box, true, [0,0,0], 0, true] call ace_dragging_fnc_setDraggable;
+};
+
 
 [player, _box] call ace_dragging_fnc_carryObject;
