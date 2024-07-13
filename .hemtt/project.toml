@@ -1,10 +1,19 @@
 name = "Wolf Arsenalpoint"
+mainprefix = "z"
 prefix = "wolf"
 author = "Wolf Corps"
-files = [
+
+[files]
+include = [
     "README.md",
     "LICENSE"
 ]
+
+
+
+[version]
+git_hash = 0
+path = "addons/arsenalpoint/script_version.hpp"
 
 keyname = "{{prefix}}_{{version}}"
 signame = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
